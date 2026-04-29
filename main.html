@@ -7,15 +7,18 @@
 </head>
 
 <body>
-	<h1>Login Form</h1>
-	<form>
-		<input type="text" placeholder="Username" id="username">
-		<input type="password" placeholder="Password" id="password">
-		<label for="RememberMe">Remember me.</label>
-		<input type="checkbox" id="checkbox" name="RememberMe">
-		<button type="submit" id="submit">Submit</button>
-		<button type="hidden" id="existing">Login as existing user</button>
-	</form>
+	<form id="form">
+  <input type="text" placeholder="Username" id="username">
+  <input type="password" placeholder="Password" id="password">
+  
+  <label for="checkbox">Remember me.</label>
+  <input type="checkbox" id="checkbox">
+
+  <button type="submit" id="submit">Submit</button>
+</form>
+<button type="button" id="existing" style="display: none;">
+  Login as existing user
+</button>
     <script type="text/javascript" src="./script.js">
 </script>
 
