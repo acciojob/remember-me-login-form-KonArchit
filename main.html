@@ -8,13 +8,14 @@
 
 <body>
 <form id="form">
-  <input type="text" placeholder="Username" id="username">
+  <label for="username"></label>
+  <input type="text" placeholder="Username" id="username" name="username">
   <input type="password" placeholder="Password" id="password">
   
   <label for="checkbox">Remember me.</label>
   <input type="checkbox" id="checkbox" name="checkbox">
 
-  <button type="submit" id="submit" value="Submit">Submit</button>
+  <input type="submit" id="submit" value="Submit"></input>
 </form>
 <button type="button" id="existing" style="display: none;">Login as existing user</button>
 <script type="text/javascript" src="./script.js"></script>
